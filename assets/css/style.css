@@ -1,12 +1,111 @@
-h3{
+
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Poppins:wght@500;600&family=Roboto&display=swap');
 
 
-    color:red;
-    font-size: 35px;
+/* global variables */
+:root{
+
+    --primary:#12bdff;
+    --dark-primary:#1b1f24;
+
+
 }
 
-div p{
+body{
 
 
-    color:blue;
+
+    font-family: 'Gabarito', sans-serif;
+}
+
+
+    
+
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+
+
+    background-color: #1b1f24;
+padding-top:10px;
+padding-right:20px;
+padding-bottom:30px;
+padding-left:40px;
+color:#fff;
+
+display:flex;
+
+justify-content:space-around;
+align-items: center;
+
+
+}
+
+ul{
+
+    display: flex;
+    list-style: none;
+  
+    
+}
+
+ul li {
+
+    margin-right: 10px;
+    
+}
+
+    ul li a{
+
+
+        color:#fff;
+    }
+
+/* header > button */
+
+
+
+header button{
+
+
+    padding:10px 20px;
+font-weight:bold;
+background-color:var(--dark-primary) ;
+border: 1px solid  var(--primary);
+color:var(--primary);
+border-radius: 5px;
+
+}
+
+
+ul li a:hover{
+
+
+color:var(--primary);
+font-weight: ;
+
+}
+
+header button:hover{
+
+
+    cursor:pointer;
+    background-color:var(--primary);
+    color:var(--dark-primary);
+}
+
+header .logo{
+
+    color:var(--primary);
+
+  font-weight: bold;
+  letter-spacing:2px;
+
+
 }
