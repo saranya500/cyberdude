@@ -212,4 +212,74 @@ color:var(--dark-primary);
    }
 
 
+/* about me section */
 
+.about-section{
+
+    background-color: #22282f;
+    color:#fff;
+    padding:60px; /*tb lr*/
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    
+
+}
+
+.about-section img{
+
+    width:300px;
+    border-radius: 40px;
+   border:3px solid var(--primary);
+   box-shadow: 5px 10px 20px #03506e;
+    
+    
+    
+}
+
+.about-section--desc{
+
+    margin-left:100px;
+    max-width: 450px;
+   
+
+}
+.about-section--desc h4{
+
+font-size: 30px;
+font-weight: bold;
+
+}
+
+.about-section--desc h4>span{
+
+color:var(--primary);
+
+}
+.about-section--desc ul{
+margin-top: 10px;
+list-style: none;
+margin-bottom: 10px;
+
+}
+.about-section--desc ul li{
+
+margin-bottom:10px;
+color:grey;
+}
+.about-section--desc ul li >strong{
+
+    color:#fff;
+}
+
+.about-section--desc li >a {
+
+    text-decoration: none;
+    color:grey;
+}
+.about-section--desc li >a:hover{
+
+
+color: var(--primary);
+}
