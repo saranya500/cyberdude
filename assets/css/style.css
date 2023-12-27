@@ -5,8 +5,8 @@
 /* global variables */
 :root{
 
-    --primary:#12bdff;
-    --primary-hover:#1290c2;
+    --primary:rgb(123, 219, 153);
+    --primary-hover:#1290c2;c7f;
     --dark-primary:#1b1f24;
   --nunito:'nunito sans',sans-serif;
 
@@ -153,7 +153,7 @@ ul.social-icons {
 }
 
 .social-icons li  a> i.fa-facebook:hover{
-color:#1877f2;
+color:rgb(123, 219, 153);
 }
 
 .social-icons li a> i.fa-linkedin:hover{
@@ -325,7 +325,7 @@ display: block;
 }
 .work-section-box-icon{
 
-    background-color: #1877f2;
+    background-color:rgb(123, 219, 153);
     padding:10px;
     border-radius:50%;
     margin-bottom: 20px;
