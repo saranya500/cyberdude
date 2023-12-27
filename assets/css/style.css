@@ -207,13 +207,9 @@ color:var(--dark-primary);
 
     background-color:var(--primary);
     border:1px solid var(--primary);
-
-    border-radius:5px;
     font-weight: bold;
     border-radius: 5px;
-   
+   }
 
-
-}
 
 
