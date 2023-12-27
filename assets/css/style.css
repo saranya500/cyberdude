@@ -283,3 +283,45 @@ color:grey;
 
 color: var(--primary);
 }
+
+.work-section{
+
+background-color: var(--dark-primary);
+color:#fff;
+padding:60px;
+text-align: center;
+
+}
+
+.work-section-box{
+
+background-color: #22282f;
+padding:30px;
+max-width:250px;
+text-align: left;
+border-radius:20px;
+}
+
+.work-section-box a{
+
+text-decoration: none;
+color:#feda75;
+margin-top:10px;
+display: block;
+
+
+}
+
+.work-section-box-desc{
+
+    margin-top: 20px;
+}
+
+.work-section-box-icon{
+
+    background-color: #1877f2;
+    padding:10px;
+    border-radius:50%;
+    margin-bottom: 20px;
+
+}
