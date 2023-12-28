@@ -365,6 +365,7 @@ margin-bottom: 30px;
 .contact-section{
 
 background-color: #14171c;
+
 padding:50px;
 color:#fff;
 text-align: center;
@@ -385,17 +386,20 @@ text-align: center;
 
     color:#6cdf4d;
 }
-.contact-section form input,textarea{
-    
+.contact-section form input ,textarea{
     
     padding:5px 10px;
-    outline:none;
     width:350px;
-    border:none;
-    background-color: #c4c4c4;
-    border-radius: 2px;
     margin-bottom: 10px;
-    resize: none;
+    border-radius: 5px;
+   border:none;
+    outline:none;
+ background-color:#c4c4c4;
+    font-weight: bold;
+    
+   
+   
+    
 
 }
 
@@ -412,5 +416,6 @@ footer{
 footer a{
 
     text-decoration: none;
-    
+
 }
+
