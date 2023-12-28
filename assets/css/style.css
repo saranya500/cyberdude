@@ -43,6 +43,11 @@ color:#fff;
 display:flex;
 justify-content:space-around;
 align-items: center;
+position: fixed;
+top:0;
+left:0;
+right:0;
+
 }
 
 header ul{
@@ -106,7 +111,7 @@ section.hero-section{
     color:#fff;
     display: flex;
     align-items: center;
-    padding:20px 120px 0 120px;
+    padding:60px 120px 0 120px;
 
 }
 
@@ -449,17 +454,15 @@ section.hero-section{
 }
 
 
-
 section.about-section{
     flex-direction: column;
-}
-
-.about-section--desc{
-
     margin-left: 0;
     margin-top:30px ;
 
 }
+
+
+
 /*my works*/
 
 .work-section{
