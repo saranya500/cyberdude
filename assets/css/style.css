@@ -94,6 +94,9 @@ header .logo{
 
 }
 
+/*media query*/
+
+
 /*sction : hero home page */
 
 section.hero-section{
@@ -178,6 +181,7 @@ color:rgb(123, 219, 153);
 .hero-buttons button{
 
     margin-right:10px;
+    margin-bottom: 20px;
 }
 /* button styling */
 
@@ -237,7 +241,7 @@ color:var(--dark-primary);
     border-radius: 40px;
    border:3px solid rgb(58, 184, 98);
    box-shadow: 5px 10px 20px #33821d;
-    
+   
     
     
 }
@@ -423,3 +427,61 @@ footer a{
 
 }
 
+/*media queries*/
+
+
+@media only screen and (max-width: 600px) {
+    header{
+ 
+     flex-direction: column;
+    }
+     header > *{
+        margin-bottom: 10px;
+     }
+     
+/*hero section*/
+section.hero-section{
+
+    flex-direction: column;
+
+    padding: 40px;
+
+}
+
+
+
+section.about-section{
+    flex-direction: column;
+}
+
+.about-section--desc{
+
+    margin-left: 0;
+    margin-top:30px ;
+
+}
+/*my works*/
+
+.work-section{
+
+    padding:30px 50px;
+}
+.work-section-items{
+    flex-direction: column;
+
+}
+.work-section-box{
+
+
+    margin-bottom: 10px;
+    width:100%;
+    margin-right: 0;
+}
+
+.contact-section form input,textarea{
+
+    width:100%;
+}
+    
+}
+    
